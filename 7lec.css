@@ -1,0 +1,23 @@
+ 
+ div{
+    background-color: aqua; 
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px 40px 10px 40px;
+    background-image: linear-gradient(to right, red, blue);
+    box-shadow: 10px 10px 10px black ;
+   /* display:none; */
+    /* visibility: hidden; */
+     } 
+ 
+
+ @media  screen and (max-width:900px)  and (min-width:800px) {
+   body{
+    background-color: red;
+   }
+    div{
+        background-color: aqua !important;
+
+    } 
+   
+ }

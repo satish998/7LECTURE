@@ -1,0 +1,19 @@
+.outerdiv{
+    background-color: brown;
+    width: 500px;
+    height:300px;
+}
+
+div > div{
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction:row;
+    flex-flow: wrap;
+    /* display: inline; */
+}
